@@ -1,0 +1,91 @@
+.carousel-item img {
+	max-height: 100vh;
+	object-fit: cover;
+}
+
+/*  carousel captions */
+.carousel-caption h2,
+.carousel-caption p {
+	color: white;
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+.carousel-caption a.btn {
+	box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* fixed height for the card image */
+.card-img-top {
+	height: 250px;
+	object-fit: cover;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.card-body {
+	flex-grow: 1;
+}
+.card-footer {
+	background-color: #f8f9fa;
+}
+/* card hover animation */
+.card {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* scroll margin */
+#products,
+#about,
+#contact {
+	scroll-margin-top: 100px;
+}
+
+/* for footer */
+footer {
+	background-color: #343a40;
+}
+
+footer a {
+	color: #f8f9fa;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #007bff;
+}
+
+footer i {
+	transition: all 0.3s ease;
+}
+
+footer i:hover {
+	color: #007bff;
+	transform: scale(1.2);
+}
+
+footer .text-light {
+	color: #f8f9fa !important;
+}
+
+footer .text-primary {
+	color: #007bff !important;
+}
+
+footer .fs-3 {
+	font-size: 1.5rem;
+}
+
+footer .col-md-4 {
+	margin-bottom: 20px;
+}
+
+footer .container {
+	max-width: 1200px;
+}
